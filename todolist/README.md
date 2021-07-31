@@ -1,24 +1,17 @@
-# todolist
+# TODOLIST
 
 ## Project setup
 ```
-npm install
+docker setup
 ```
 
-### Compiles and hot-reloads for development
+### Docker build
 ```
-npm run serve
+docker image build -t . todolist
 ```
-
-### Compiles and minifies for production
+### Docker run
 ```
-npm run build
+$ docker run [OPTIONS] IMAGE[:TAG|@DIGEST] [COMMAND] [ARG...]
 ```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
